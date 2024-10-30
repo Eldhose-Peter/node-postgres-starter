@@ -43,11 +43,11 @@ psql -h localhost -p 5432 -U postgres
 4.  Create users table
 
 ```bash
-CREATE TABLE users ( \
- id SERIAL PRIMARY KEY, \
- username VARCHAR(80), \
- email VARCHAR(255), \
- created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP \
+CREATE TABLE users ( 
+ id SERIAL PRIMARY KEY, 
+ username VARCHAR(80), 
+ email VARCHAR(255), 
+ created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP 
  );
 ```
 

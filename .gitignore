@@ -1,3 +1,5 @@
 node_modules/
 .env
 dist/
+pg-data/
+.DS_Store
